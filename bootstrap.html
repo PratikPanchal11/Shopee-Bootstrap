@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./icons/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Balsamiq+Sans:ital@1&family=Berkshire+Swash&family=Bungee&family=Carter+One&family=Crete+Round:ital@1&family=Cuprum:wght@500&family=Dancing+Script:wght@700&family=Kanit:ital@1&family=Macondo&family=Oleo+Script&family=Orelega+One&family=Pacifico&family=Pattaya&family=Smooch&family=Sofia&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg " style="background-color:lightpink;height: 100px;;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-family: 'Crete Round', serif;font-size: 50px;">Shopee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Offer Zone</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+                <li><a class="dropdown-item" href="#">Footwear</a></li>
+                <li><a class="dropdown-item" href="#" >Watches</a></li>
+                <li><a class="dropdown-item" href="#">Kids Fashion</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Discount Zone</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav> <br><br>
+
+    <!-- card -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./pics/Womens clothing.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Women Clothing</h1>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./pics/Mens clothing.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Mens Clothing</h1>
+            <p style="font-family: 'Racing Sans One', cursive;;">40-50% Off On Casual Wear</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./pics/Kids.jpg"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Kids Wear</h1>
+            
+          </div>
+        </div>
+      </div>
+     
+      </div>
+    </div><br><br>
+    
+    <!-- card 2 -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./pics/Electronics.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Electronics</h1>
+            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Exclusive Deal and discount is ON</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./pics/Kitchen appliances.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Kitchen Appliances</h1>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Exclusive Deal and discount is ON</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./pics/Kids Wear.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Kids Fashion</h1>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Exclusive Deal and discount is ON</small>
+          </div>
+        </div>
+      </div>
+    </div> <br><br>
+
+      <!-- carosal-->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./pics/Earphone.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: white;font-family: 'Racing Sans One', cursive;;"><b> 30% OFF On Earphones </b> </h1>
+              <p style="color: white;font-family: 'Racing Sans One', cursive;;"> <b> Get 30% off on Boat, Realme, 1+plus Earhones </b></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./pics/feet-1840619_1920.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color:white;font-size: 50px;"><b> 40% OFF ON Footwear </b></h1>
+              <p style="color: white;font-size: 40px;"><b> Clik On Banner </b></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./pics/pexels-rodnae-productions-7915492.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: white;font-family: 'Racing Sans One', cursive;;">Get Exclusive Discount On Gaming Keyboards & Mouse...</h1>
+              
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
+
+      <!-- spinner -->
+      <div class="spinner-grow text-primary" style="margin-left: 500px;" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div> <br><br>
+      
+    <!-- Footer -->
+    <div class="footer">
+      <div class="content"><h4 >Get to Know Us</h4>
+         <ul style="list-style-type: none;padding: 0px;margin: 0px;">
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Press Release</li>
+          <li>Shopee Cares</li>
+          <li>Gift a Smile</li>
+          <li>Shopee Science</li>
+         </ul></div>
+      <div class="content"><h4 >Connect With Us</h4>
+        <ul style="list-style-type: none;padding: 0px;margin: 0px;">
+          <li >  <i style="font-size: 25px;" class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp; Facebook</li>
+         <li>  <i style="font-size: 25px;" class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;Instagram</li>
+          <li> <i style="font-size: 25px;" class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;Twitter</li>
+        </ul></div>
+      <div class="content"><h3 >Make Money With Us</h3>
+      <ul style="list-style-type: none;padding: 0px;margin: 0px;">
+        <li>Sell on Shopee</li>
+        <li>Sell under Shopee Accelerator</li>
+        <li>Shopee Global Selling</li>
+        <li>Become an Affiliate</li>
+        <li>Fulfilment by Shopee</li>
+        <li>Advertise Your Products</li>
+        <li>Shopee Pay on Merchants</li>
+      </ul></div>
+      <div class="content"><h4 >Let UsHelp You</h4>
+        <ul  style="list-style-type: none;padding: 0px;margin: 0px;">
+          <li>COVID-19 and Shopee</li>
+          <li>Your Account</li>
+          <li>Returns Center</li>
+          <li>100% Purchase Protection</li>
+          <li>Shopee App Download</li>
+          <li>Help</li>
+        </ul></div>
+      
+    </div>
+
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>

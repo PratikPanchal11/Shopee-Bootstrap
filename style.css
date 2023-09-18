@@ -1,0 +1,11 @@
+/* Footer */
+
+.footer{background-color:black;
+         color:white;display: flex;justify-content: space-evenly;
+         height: 378px;}
+
+         .content{ 
+                    
+                    height: 300px;
+                   width: 270px;
+                  margin-top: 40px;}
